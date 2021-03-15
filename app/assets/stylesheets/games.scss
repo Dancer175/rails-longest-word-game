@@ -1,0 +1,78 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$blue: #204A87;
+$lightblue: #729FCF;
+
+body {
+  h1 {
+    font-family: arial;
+    font-size: 50px;
+  }
+  .letter {
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px;
+    margin-right: 10px;
+    background-color: $blue;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 40px;
+  }
+}
+
+#input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#button {
+  background-color: $blue;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  width: 100px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: black;
+    background-color: lightblue;
+  }
+}
+
+.answer {
+  margin: 50px;
+  font-family: arial;
+  font-size: 40px;
+  a {
+    text-decoration: none;
+    background-color: $blue;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px 20px;
+    &:hover {
+      color: black;
+      background-color: lightblue;
+  }
+
+  }
+}
+
